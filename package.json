@@ -1,31 +1,30 @@
 {
-  "name": "tslint-ionic-rules",
-  "version": "0.0.14",
-  "description": "Common TypeScript lint rules/preferences for Ionic.",
+  "name": "tslint-genie-rules",
+  "version": "0.0.1",
+  "description": "Common TypeScript lint rules/preferences for Genie Team.",
   "main": "tslint.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/tslint-ionic-rules.git"
+    "url": "git+https://github.com/genie-team/tslint-genie-rules.git"
   },
   "keywords": [
     "tslint",
     "rules",
-    "ionic",
-    "angular",
+    "genie",
     "typescript",
     "lint",
     "linting",
     "linter",
     "tslint-plugin"
   ],
-  "author": "Ionic",
+  "author": "Genie",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ionic-team/tslint-ionic-rules/issues"
+    "url": "https://github.com/genie-team/tslint-genie-rules/issues"
   },
-  "homepage": "https://github.com/ionic-team/tslint-ionic-rules#readme",
+  "homepage": "https://github.com/genie-team/tslint-genie-rules#readme",
   "dependencies": {
-    "tslint-eslint-rules": "^4.1.1"
+    "tslint-eslint-rules": "^5.3.1"
   },
   "devDependencies": {
     "typescript": "^2.3.4"

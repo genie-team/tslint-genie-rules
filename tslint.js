@@ -11,17 +11,22 @@ module.exports = {
     "comment-format": {"options": ["check-space"]},
     "encoding": true,
     "eofline": true,
-    "indent": {"options": ["spaces"]},
+		"indent": [true, "tabs", 2],
     "jsdoc-format": [true, "check-multiline-start"],
     "linebreak-style": [true, "LF"],
-    "new-parens": true,
+		"new-parens": true,
+		"no-consecutive-blank-lines": [true, 1],
+		"no-constant-condition": true,
+		"no-control-regex": true,
     "no-debugger": true,
     "no-duplicate-super": true,
     "no-duplicate-switch-case": true,
     "no-duplicate-variable": true,
-    "no-empty": true,
+		"no-empty": true,
+		"no-empty-character-class": true,
     "no-eval": true,
-    "no-extra-boolean-cast": true,
+		"no-extra-boolean-cast": true,
+		"no-extra-semi": true,
     "no-import-side-effect": true,
     "no-inferrable-types": true,
     "no-internal-module": true,
@@ -32,7 +37,7 @@ module.exports = {
     "no-switch-case-fall-through": true,
     "no-trailing-whitespace": true,
     "no-unsafe-finally": true,
-    "no-unused-variable": true,
+		"no-unused-variable": [true, {"ignore-pattern": "^_"}],
     "no-var-keyword": true,
     "no-var-requires": true,
     "one-line": {
@@ -74,6 +79,6 @@ module.exports = {
         "check-separator",
         "check-type"
       ]
-    },
+		},
   }
 }
