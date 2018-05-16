@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/genie-team/tslint-genie-rules#readme",
   "dependencies": {
-    "tslint-eslint-rules": "^5.3.1"
+    "tslint-eslint-rules": "latest"
   },
   "devDependencies": {
-    "typescript": "^2.3.4"
+    "typescript": "latest"
   }
 }
