@@ -27,6 +27,7 @@ module.exports = {
     "no-eval": true,
 		"no-extra-boolean-cast": true,
 		"no-extra-semi": true,
+		"no-floating-promises": true,
 		"no-import-side-effect": [true, {"ignore-module": "(\\.html|\\.css)$"}],
     "no-inferrable-types": true,
     "no-internal-module": true,
