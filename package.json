@@ -1,6 +1,6 @@
 {
   "name": "tslint-genie-rules",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Common TypeScript lint rules/preferences for Genie Team.",
   "main": "tslint.js",
   "repository": {
