@@ -38,7 +38,6 @@ module.exports = {
     "no-switch-case-fall-through": true,
     "no-trailing-whitespace": true,
     "no-unsafe-finally": true,
-		"no-unused-variable": [true, {"ignore-pattern": "^_"}],
     "no-var-keyword": true,
     "no-var-requires": true,
     "one-line": {
